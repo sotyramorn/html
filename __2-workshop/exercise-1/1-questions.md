@@ -26,7 +26,7 @@ Screenreader is a tool for visually impaired to help understand what is displaye
 
 a) You want to create a webpage with the photos from your latest vacation
 ```html
-<img src="image" />
+<img src="image" alt="" />
 ```
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
