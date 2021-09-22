@@ -14,21 +14,37 @@ b) [ false ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [ false ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
 _Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
 
+Screenreader is a tool for visually impaired to help understand what is displayed on the screen. For example, if the reader is reading an article and uses a text-to-speech function, it will read outloud <h1> as the title and <p> as the content of the article.
+
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+<img src="image">
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+<ul>
+    <li><a href="Link to gallery">Gallery Name</a></li>
+    <li><a href="Link to gallery">Gallery Name</a></li>
+    <li><a href="Link to gallery">Gallery Name</a></li>
+</ul>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+<form>
+    <label>Name:</label><br>
+    <input type="text"><br>
+    <label>Message:</label><br>
+    <input type="text"><br>
+    <input type="submit" value="Submit">
+</form>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+No, a button cannot be a child of button. A button is responsible for one action and not multiple
 
 ## Q5 - What is the most generic tag you can use?
 
